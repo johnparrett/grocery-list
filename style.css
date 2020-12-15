@@ -1,0 +1,119 @@
+html {
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/3377405/pexels-photo-3377405.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 75%;
+}
+
+header {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    max-width: 500px;
+    padding-top: 1rem;
+    align-items: center; 
+    font-size: 1.5rem;
+}
+
+.main {
+    padding: 20px;
+    z-index: 1;
+}
+
+form {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+}
+
+input[type="text"] {
+    height: 3rem;
+    outline: 0;
+    border: none;
+    font-size: 1.5rem;
+    color: gray;
+    flex-grow: 1;
+}
+
+button {
+    font-size: 1.5rem;
+    border: none;
+    background-color: white;
+    outline: 0;
+}
+
+button:hover {
+    color: purple;
+}
+
+.grocery-list {
+    background-color: white;
+    border-radius: 5px; 
+    margin-top: 20px;
+    padding: .5rem 2rem 0rem 2rem;
+    height: 100%;
+    margin-bottom: 2rem;
+}
+
+ul {
+    padding-left: 0px;
+    padding-bottom: 1rem;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding: 15px 0;
+    font-size: 1.5rem;
+}
+
+i {
+    pointer-events: none;
+}
+
+.todo-item {
+    flex-grow: 1;
+}
+
+.clearAll {
+    color: gray;
+    cursor: pointer;
+    font-size: 0.9rem;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    max-width: 500px;
+    padding-bottom: 1rem;
+    align-items: center; 
+}
+
+.clearAll:hover {
+    color: red;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    font-size: .75rem;
+    align-items: center;    
+}
+
+.footer-container {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    max-width: 500px;
+    padding-top: 1rem;
+    align-items: center; 
+}
